@@ -1,0 +1,50 @@
+
+
+div.highslide-body * {  text-align: center; }
+
+div.highslide-body   { border:0px solid magenta;  margin:auto; font-family:     Arial, Helvetica, sans-serif; color: #ffffff; font-size: 16px;    line-height:16px;   }
+
+div.highslide-html-content    div.formrow { border:0px solid magenta; padding:3px 0;  text-align: center;}
+div.highslide-html-content    div.label        { padding:6px 0; min-width:25%; border:0px solid magenta;   vertical-align: middle;  }
+div.highslide-html-content    div.forminput    {      }
+div.highslide-html-content     input, #highslide-html-19  textarea  {  font-size: 19px; width:80%;   margin:0; color:#000000 ; border-radius: 5px;   }
+div.highslide-html-content     input {height:30px}
+
+div.highslide-html-content  .highslide-heading, div.highslide-html-content h3
+ {text-align: center; font-size:20px;  line-height:24px; margin: 20px 0;  border-bottom:1px dashed #fff;  }
+
+div.highslide-html-content
+{
+   border: 1px solid #0a3c59;
+   background-color: #4655c5 ;
+    border-radius:5px;
+   padding: 7px 14px;
+   text-decoration: none;
+   text-align: center;
+}
+
+
+ /*
+  line 906  { position:fixed;}
+  */
+
+
+div.highslide-html-content   input.submitform  {
+   cursor:hand; cursor:pointer; text-align: center;
+     color: #fff;
+    background-color: #0f297e;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 55px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 18px;
+    border-width:0;
+    }
+
+    div.highslide-html-content   input.submitform:hover {background-color: #061853;  }
+
+   #imgnumber   { position:relative; top:0px; margin:0 10px }
+
+   #close  {position:absolute; right:0px; top:-0px; z-index:9000}
+

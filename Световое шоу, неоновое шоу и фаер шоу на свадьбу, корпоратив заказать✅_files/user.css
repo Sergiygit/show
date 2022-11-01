@@ -1,0 +1,177 @@
+html
+ {  margin:0; padding:0 ;font-size:14px;  background-color:#160d72;
+   background-size:cover;  background-attachment: fixed;
+    background-color:#121212; background-position:50% -0px; background-repeat:no-repeat;
+  }
+
+ *  {   padding:0; margin:0; border-collapse:collapse; text-decoration:none; text-align: left; font-family:  "PT Sans",  Arial, Helvetica, sans-serif;   color:#ffffff;  }
+
+
+div.head {     background-image:url('/images/fon_head.jpg');   background-color:#121212; background-position:50% 50%; background-repeat:repeat; }
+div.head div.center { width:1300px  }
+
+
+div.squares { background-size:cover;  background-attachment: fixed;  background-image:url('/images/fon_squares.jpg');   background-color:#121212; background-position:50% -0px;  }
+div.news { background-image:none; background-color:#fff}
+
+div.form { border:0px solid #fff; background-color:#000102;   background-image:url('/images/fon_form.jpg');background-position:50% 100%;
+ background-repeat:no-repeat; height:700px }
+div.form center {border:10px solid #fff; }
+
+div.sotrudn { border:0px solid #fff; background-color:#01112e; text-align:center ; background-attachment: scroll;  background-image:url('/images/fon11.jpg');   background-color:#121212; background-position:50% -0px;  }
+div.sotrudn *   { text-align:center }
+div.sotrudn   div.center  { padding:20px 0  50px 0 }
+
+
+div.under { border:0px solid #fff; background-color:#0f0f0f;   }
+
+ #map {width:1000px}
+
+
+
+
+img {border:0; }
+a {text-decoration:underline;}
+
+@media  (min-width: 1400px)
+{
+  html { background-position:50% 0px; background-size:cover }
+}
+
+
+
+ /* title */
+ div.customtitle { position:relative; top:0px; }
+ div.customtitle *    { font-family: Times New Roman,  Arial, Helvetica, sans-serif; color:#f2db9d  }
+
+div.customtitle  p        {   text-align:  center;  position:relative; top:0px; font-size:20px; line-height:30px; font-weight:400;   }
+div.customtitle  p strong  {
+font-family: 'Tangerine', cursive, "PT Sans",  Arial, Helvetica, sans-serif;
+   text-align:  center;  position:relative; top:0px; font-size:46px; line-height:30px; font-weight:400; text-decoration:none   }
+
+
+
+
+   #knopki   {  }
+    #menu1
+   #tdemblema    { }
+   #menu1
+   #tdphones   {  }
+
+   #headtable  {width:100%; height:170px;   }
+#headtable  tr td {text-align:center; vertical-align:middle; width:20%; border:0px solid  #ffffff; }
+#menu1 * { text-align:right }
+ #menu1 ul.menu_top  {  position:relative; left:0px; }
+   #menu2 ul.menu_top  {   position:relative; left:-0px;}
+
+
+#portret
+{        margin: 30px 30px 0px 0px;
+-webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+
+        /* phones */
+div.customphones  {text-align: center; position:relative; top:0px; left:0px;  margin-top:0px; margin-bottom:10px  }
+div.customphones  p, div.customphones a  { text-align: left;  position:relative; top:0px; font-size:16px; line-height:20px }
+div.customphones  p strong, div.customphones  strong a { text-align: left;  position:relative; top:0px; font-size:23px; line-height:30px; font-weight:400; }
+div.customphones img { position:relative; top:0px; left:0px}
+div.customphones a {  text-decoration:none; }
+
+
+    /*  menu   */
+ul.menu_top  {}
+ul.menu_top li {  list-style-type:none}
+ul.menu_top li a     { text-align:center;text-decoration:none;  font-size:18px; font-size:16px;  line-height:30px; text-transform:uppercase;
+ padding:0px 9px; font-weight:400; color:#ffffff;  }
+
+li.item-201  {position:relative;left:-30px; }
+li.item-202  {position:relative;left:30px; }
+
+ul.menu_top li a:hover {   text-decoration:none;
+text-shadow: 0 0 5px #f2db9d, 0 0 10px #f2db9d, 0 0 20px #f2db9d, 0 0 30px #f2db9d, 0 0 40px #f2db9d, 0 0 55px #f2db9d, 0 0 75px #f2db9d; }
+
+#headtable * { transition: 0.4s ease-out; }
+
+
+
+/* breadcrumbs */
+.breadcrumbs, .article-info { text-align:right; padding: 7px;margin: 0 0 0px;list-style: none; font-size:12px; }
+
+
+
+
+ div.moduletable h3 {
+ text-transform:uppercase;
+ font-weight:400;
+vertical-align:middle;
+padding:50px auto;  height:26px; border:0px solid green; line-height:76px; height:76px;   color:#fff;text-align:center; font-size:26px;
+ }
+
+div.news div.moduletable h3  { color:#000;  }
+
+/* cp */
+#middletable { width:100% ;  border:0px solid red}
+#center  {padding:30px 0px 30px 0px; vertical-align:top; border:0px solid green }
+
+
+div.item-page,div.item-page strong, div.item-page p, div.item-page ul li, div.category_description p  { text-align:left;  margin:0; padding:0;
+ font-size:17px; line-height:20px; text-align:justify;  }    /*   page    */
+div.item-page  a {color:#003399; text-decoration:underline}
+
+div.item-page {  padding:20px 20px;  }
+div.pull-left  { text-align:center;  }
+
+
+   /* maket */
+div.wrapper {width:100%;  text-align:center; padding:0 0px;  float:none;  clear:both  }
+div.center {margin: auto; width:1100px;  }
+
+
+
+@media screen and (max-device-width: 980px)
+ {
+ div.center {margin: auto  auto;  border:0px solid green }
+ #maket    {display:block}
+ div.head div.center { width:1100px  }
+  }
+
+
+
+
+/* polosa snizu */
+div.moduletablepolosa  {text-align: center;  width:100%;  margin:auto;   border:0px solid green;  float:none; clear:both; padding:20px 0 }
+div.moduletablepolosa  *     {text-align: left;   margin:auto;  font-size:16px; color:#ffffff }
+div.under table { margin:auto; width:1000px}
+div.under table tr td {width:30%; border:0px solid #fff; }
+div.under table tr td p, div.moduletablepolosa table tr td  {font-size:14px; line-height:30px;}
+div.under table tr td a {font-size:14px; line-height:30px; text-decoration:none; border-bottom:1px dashed #fff}
+
+#under1 *   { line-height:20px;}
+
+ div.under ul.menu_top li {display: inline; top:0; left:0}
+
+
+ div.between  {width:100%; height:5px;  background-color:#1769e1;  background-image:url('/images/between.jpg');  }
+
+ div.descr {  margin:0px auto; padding:0px auto; border:0px dashed #fff;  text-align: center;    width:100%; font-size:24px; line-height:30px;    }
+
+   div.moduletable_knopki  img  { width:40px  }
+
+
+ h2, div.moduletable_form  h2    { font-size:30px; line-height:40px;  font-weight:400;  color: #fff;   }
+
+   div.moduletable_usermenu  {display:none}
+
+
+
+
+
+
+
+
+
+

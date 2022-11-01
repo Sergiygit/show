@@ -1,0 +1,174 @@
+
+
+
+
+/* pagination */
+ul.pagination  li, div.pagination ul li {display:inline; margin:0 5px}
+ul.pagination  li span {text-decoration:none; margin:0 10px}
+ul.pagination  li  a {text-decoration:underline; margin:0 10px}
+div.jshop_pagination, div.pagination, div.pagination p, div.pagination  ul  {width:auto; text-align:center;  font-size:17px}
+
+
+
+div.item-page h1, div.jg-header, div.blog h2   {  text-align:center;   font-size:30px; line-height:39px; margin:10px 0; font-weight:400  }
+div.item-page h2                 {     font-size:36px; line-height:39px;   margin:10px 0; font-weight:400; border-bottom:1px dotted #625b5b;   }
+
+div.item-page h3                {     font-size:32px; line-height:32px;   margin:10px 0; font-weight:400;    }
+div.item-page h4                {     font-size:29px; line-height:32px;  margin:10px 0; font-weight:400;  }
+
+div.item-page h5               {     font-size:26px; line-height:26px; margin:10px 0;   font-variant:normal; font-weight:400;   }
+div.item-page h6               {     font-size:22px; line-height:26px;   margin:10px 0;   font-variant:normal; font-weight:800;  }
+
+
+
+ul.actions, ul.actions li   {list-style-type:none; text-align:left  }
+div.item-page ul, div.item-page ol  { list-style-position:inside }
+ul.actions,   ul.pagenav     { list-style-type:none; display:inline;  position:relative; top:0px  ;  }
+ul.pagenav {display:none}
+a {outline:0; border:0; outline: none; }
+a:focus { outline: none; }
+
+ /* news module */
+ div.nspArt *  { color:#000}
+div.nspArt  table tr td a  {font-size:16px; LINE-HEIGHT:18PX; color:#000}
+div.nspArt  table tr td img   {width:300px;}
+div.nspArt  table tr td img  { transition: 0.4s ease-out; border:0px solid green; text-align:center}
+div.nspArt  table tr td img:hover {-webkit-transform: scale(1.15); transform: scale(1.15);}
+div.nspArt  table tr td {overflow:hidden}
+
+ /* news page */
+ table.category  tr td.list-title   {text-align:left }
+ td.list-date   {text-align:left; width:200px }
+
+
+ /* center tables */
+#center table td, #center table th {padding:10px; vertical-align:top;  }
+#center table caption { text-align:center;   font-size:22px; line-height:20px;  color:#625b5b; margin:10px 0;   font-variant:small-caps; font-weight:800 }
+#center table td, #center table th, #center table   {border-color:#0597c9;  }
+
+
+   /* blog */
+
+
+  #center  div.blog table tr td {text-align:left; border:0px solid green; padding:0 20px 20px 0  }
+    div.blog table  {border:0px solid green; width:100%}
+    div.blog div.item-image img  {width:300px; margin:0px 20px 20px 0; border:2px solid #fff;  }
+
+                    td.blog-picture  {  }
+    td.blog-description  p {  font-size:17px}
+   td.blog-description,  td.blog-description  .page-header,  td.blog-description  .page-header h2 {text-align:left;}
+   td.blog-description {padding:0 20px 0 0  }
+
+    .article-info-term  {display:none}
+    dl.article-info *  {  font-size:17px; margin:0; padding:0}
+    dl.article-info  { margin:10px 0; padding:0}
+
+
+div.item-page ul,  div.item-page ol {list-style-position:outside; margin-left:50px}
+
+
+
+ /* joomgallery */
+div.jg_catelem_txt ul li {text-align:center; border:0px solid green}
+div.jg_element_cat   {margin:0 1px}
+div.jg_element_gal  {text-align:center;  border:0px solid green;}
+div.jg_element_txt  *  {text-align:center;  }
+div.jg_element_txt ul li a {font-size:20px; line-height:25px; }
+
+
+
+
+   /* blog */
+  #center  div.blog table tr td {text-align:left; border:0px solid green; padding:0 20px 20px 0  }
+    div.blog table  {border:0px solid green; width:100%}
+    div.blog div.item-image img  {width:400px; margin:0px 20px 20px 0   }
+          td.blog-picture  { }
+     td.blog-description   {  width:600px; vertical-align:top}
+    td.blog-description  p {  font-size:17px; margin:10px 0}
+    .article-info-term  {display:none}
+    dl.article-info *  {  font-size:17px; margin:0; padding:0}
+    dl.article-info  { margin:10px 0; padding:0}
+
+    div.category-desc    {  font-size:17px; margin:0px; padding:0 30px; text-align:justify }
+    div.category-desc p  {  font-size:17px;  text-align:justify }
+
+div.item-page ul,  div.item-page ol {list-style-position:outside; margin-left:50px}
+div.item-page    div.item-image   { display:none }
+
+p.readmore {text-align:right}
+
+
+ul.sigProContainer  {border:0px solid #fff; margin:auto; }
+ul.sigProContainer * { text-align:center   }
+ul.sigProContainer li  { margin-left:30px}
+
+ /* login page,  registration page  */
+  div.login  fieldset,  div.registration fieldset { border-color:#246ede; }
+ div.login  label,  div.registration  label, legend { font-size:20px; }
+ div.login button.btn, div.registration button.btn, #comjshop_register   input.button {width:200px; height:30px; text-align:center;font-size:20px; cursor:pointer;   cursor:hand;}
+ ul.nav-tabs li a {text-decoration:underline}
+
+
+ /* category page  */
+ div.content-category    table.category  tr td a {font-size:20px; line-height:25px}
+ div.content-category h2 {margin-left:10px}
+
+ .fr {float:right; margin:10px; margin-right:0px}
+ .fl {float:left; margin:10px; margin-left:0px}
+
+
+       /* buttons  */
+ a.letter, p.readmore  a.btn
+ {
+ text-decoration:none;
+ text-align:center;    font-family:  "PT Sans Narrow", Arial, Helvetica, sans-serif;
+ font-weight:400px; font-size:13px;
+ color:#f2db9d; background-color:none;
+ border:1px  solid #f2db9d;  padding:5px 7px;
+}
+
+a.letter:hover, div.letter:hover, div.letter2:hover, p.readmore:hover  a.btn  {  background-color:#f2db9d; color:#000 }
+div.letter2 {cursor:hand; cursor:pointer  }
+
+div.letter,  div.letter2
+ {
+ text-decoration:none;
+ text-align:center;    font-family:  "PT Sans Narrow", Arial, Helvetica, sans-serif;
+ font-weight:400px; font-size:17px;
+ color:#f2db9d; background-color:none; width:300px;
+ border:2px  solid #f2db9d;  padding:5px 7px;
+ margin:auto;
+}
+
+div.letter2 {    width:500px; font-size:27px; font-weight:600;  padding:15px 27px; text-decoration:none ; background:rgba(242, 219 , 157 , 0.4); }
+
+
+div.letter2, div.letter, p.readmore a { transition: 0.4s ease-out;  }
+
+     div.moduletable_form  h2 {padding-top:0px }
+     div.moduletable_form  div#highslide2  {margin-bottom:0px}
+
+
+     div.custompolosa_2  p { font-size:16px; margin-right:20px }
+     div.custompolosa_2 { padding:0 0 20px 0  }
+
+   #under3  div.custom_knopki * {text-decoration:0;  border:0}
+
+
+
+  /*      user area     */
+div.moduletable_usermenu {margin:20px 0 }
+  div.moduletable_usermenu  ul li {display-:inline;  font-weight:800px; font-size:20px; margin-right:20px }
+  div.control-group  button.btn,
+  div.table_order_list     button.btn ,
+  div.box_button input.button
+{text-decoration:none; text-align:center; padding:0px 34px; border-radius: 4px;
+ font:18px Arial, Helvetica, sans-serif; line-height:18px;  height:38px; cursor:hand;   cursor:pointer;
+ font-weight:400;color:#ffffff; background-color:#348425; border:0px  solid #004F72; }
+#member-profile  div.control-group a.btn,  ul.nav-tabs li a  {font-size:20px; text-decoration:underline}
+div.alert-error  button {width:20px; height:20px; text-align:center }
+div.register_block   {position:relative; left:20px;  }
+#remember_me      {position:relative; top:20px;  }
+div.login    #remember    { position:relative; top:-24px; left:20px}
+div.profile-edit input   {text-align: center;width:250px; height:30px; font-size:20px; margin-bottom:10px; font-size:20px; }
+div.profile-edit fieldset  {border-width:0}
